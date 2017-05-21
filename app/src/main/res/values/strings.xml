@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Adsapp</string>
+    <string name="banner_ad">Banner Ad</string>
+    <string name="Interstitial_ad">Interstitial Ad</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="load_interstitial">Load Interstitial</string>
+    <string name="show_banner_ad">Show Banner Ad</string>
+</resources>
