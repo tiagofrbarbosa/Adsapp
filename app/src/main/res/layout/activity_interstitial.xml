@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
     android:id="@+id/activity_interstitial"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientatio="vertical">
+    android:orientation="vertical">
 
     <Button
-        android:id="@+id/button_load_interstitial"
+        android:id="@+id/loadButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -15,10 +15,11 @@
         android:text="@string/load_interstitial"/>
 
     <Button
-        android:id="@+id/button_show_interstitial"
-        android:layout_width="wrap_content"
+        android:id="@+id/showButton"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/button_load_interstitial"
-        android:onClick="showInterstitial"/>
+        android:layout_below="@id/loadButton"
+        android:onClick="showInterstitial"
+        android:text="@string/interstitial_not_ready"/>
 
-</RelativeLayout>
+</LinearLayout>

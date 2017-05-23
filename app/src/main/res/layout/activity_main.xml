@@ -12,17 +12,17 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button_show_bannerAd"
+        android:id="@+id/button_bannerActivity"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:text="@string/show_banner_ad"/>
 
     <Button
-        android:id="@+id/button_interstitialAd"
+        android:id="@+id/button_interstitialActivity"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/button_show_bannerAd"
+        android:layout_below="@id/button_bannerActivity"
         android:text="@string/Interstitial_ad"/>
 
 </RelativeLayout>

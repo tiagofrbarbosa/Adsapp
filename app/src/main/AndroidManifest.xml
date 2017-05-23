@@ -32,7 +32,7 @@
         <activity android:name=".InterstitialActivity"
             android:label="@string/Interstitial_ad" />
 
-        <activity android:name="com.google.android.gms.ads.AdsActivity"
+        <activity android:name="com.google.android.gms.ads.AdActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
 
 
